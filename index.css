@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color:black;
+    color: white;
+    height: 20vh;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+   top:0;
+   z-index: 1;
+  
+  
+  
+  
+    align-items: center;
+}
+nav .img1 {
+    
+    width: 71px;
+    height: 88px;
+    flex: 0.1;
+    margin-left: 30px;
+
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+nav li a:hover{
+    text-decoration: underline;
+    
+}
+nav li svg{
+    cursor: pointer;
+}
+.item1{
+    display: flex;
+    flex: 0.5;
+    
+}
+.item2{
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    flex: 0.5;
+}
+.item1 li{
+    list-style-type: none;
+    margin-right: 30px;
+}
+.item2 li{
+    list-style-type: none;
+    margin-right: 30px;
+}
+ .header
+{
+    height: 100vh;
+    position: relative;
+    font-family: Roboto,Helvetica Neue,Arial;
+}
+.video-background{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+   
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+.des h1{
+    color: white;
+    position: absolute;
+    top: 91px;
+    left: 88px;
+    font-size: 42px;
+}
+.des P{
+    color: white;
+    position: absolute;
+    top: 158px;
+    left: 88px;
+    font-size: 67px;
+    width: 603PX;
+    font-weight: 800;
+}
+
+section svg{
+    width: 57px;
+    border: 2px white;
+    fill: transparent;
+    stroke: white;
+    position: absolute;
+    top: 352px;
+    left: 92px;
+    transition:  5s;
+}
+section svg :hover{
+    fill: white;
+    stroke: lightgrey;
+}
+.section3{
+    height: 85vh;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/car1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: Roboto,Helvetica Neue,Arial;
+    
+
+}
+.section3 h1{
+    position: absolute;
+    top: 90px;
+    left: 139px;
+    color: white;
+}
+.section3 svg{
+    width: 40px;
+    border: 2px white;
+    fill: transparent;
+    stroke: white;
+    position: absolute;
+    top: 154px;
+    left: 146px;
+}
+.section3 .svg2{
+    width: 40px;
+    border: 2px white;
+    fill: transparent;
+    stroke: white;
+    position: absolute;
+    top: 154px;
+    left: 216px;
+}
+.section3 h2{
+    position: absolute;
+    left: 125px;
+    top: 283px;
+    font-size: 120px;
+    font-weight: 600;
+    color: white;
+}
+.section3 h3{
+    position: absolute;
+    left: 127px;
+    top: 447px;
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+
+}
+.section3 .svg3{
+    position: absolute;
+    left: 134px;
+    top: 522px;
+    font-size: 120px;
+    font-weight: 600;
+    color: white;
+
+}
+.section3 p{
+    color: white;
+    width: 134px;
+    font-size: 17px;
+    position: absolute;
+    left: 198px;
+    top: 525px;
+    font-weight: 100;
+}
+.section4{
+  background: url(images/sec2.jpg);
+  height: 80vh;
+ position: relative;
+  background-size: cover;
+  background-position: center;
+}
+.section4 h1{
+    color: black;
+    font-family: Roboto,Helvetica Neue,Arial;
+    position: absolute;
+    left: 119px;
+    top: 115px;
+}
+.section4 h2{
+    color: black;
+    font-family: Roboto,Helvetica Neue,Arial;
+    position: absolute;
+    left: 105px;
+    top: 181px;
+    font-size: 66px;
+    font-weight: 700;
+    width: 500px;
+}
+.section4 svg{
+    width: 60px;
+    border: 2px white;
+    fill: transparent;
+    stroke: black;
+    position: absolute;
+    top: 355px;
+    left: 110px;
+}
+.section4 .li{
+    position: absolute;
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+    left: 35px;
+    top: 454px;
+    color:#bab5b5;
+}
+.section4 .li:hover{
+    color: black;
+    cursor: pointer;
+}
+.section5{
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)) ,url(images/sec3.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: Roboto,Helvetica Neue,Arial;
+    position: relative;
+    
+}
+.section5 h1{
+    color: white;
+    position: absolute;
+    top: 223px;
+    left: 155px;
+    
+
+}
+.section5 P{
+    position: absolute;
+    font-size: 66px;
+    top: 279px;
+    left: 145px;
+    width: 700px;
+    font-weight: bolder;
+    color: white;
+}
+.section5 svg{
+    width: 60px;
+    border: 2px white;
+    fill: transparent;
+    stroke: white;
+    position: absolute;
+    top: 461px;
+    left: 143px;
+
+}
+.section6{
+ height: 100vh;
+  font-family: Roboto,Helvetica Neue,Arial;
+  position: relative;
+  height: 100vh;
+
+}
+.section6 h1{
+    color: black;
+    position: absolute;
+    top: 42px;
+    left: 155px;
+    font-size: 33px;
+}
+.section6 h2{
+    color: black;
+    position: absolute;
+    top: 108px;
+    left: 155px;
+    font-size: 99px;
+
+}
+.section6 img{
+    width: 1217px;
+    position: absolute;
+    left: 159px;
+    top: 246px;
+    
+}
+.section7{
+    height: 24vh;
+    font-family: Roboto,Helvetica Neue,Arial ;
+}
+.section7 .outer1{
+    margin-top: 100px;
+    display: flex;
+   
+    
+
+}
+.section7 .outer1 {
+    margin-left: 154px;
+    
+    
+}
+.section7 #para{
+    margin-top: 45px;
+}
+.section7 .button{
+    padding: 10px 35px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    align-self: flex-start;
+}
+.section7 .button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.section8{
+    height: 45vh;
+    font-family: Roboto,Helvetica Neue,Arial ;
+   position: relative;
+
+}
+.section8 img{
+    width: 583px;
+}
+.section8 #date{
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: -21px;
+}
+.section8 #bt1{
+    padding: 12px 11px;
+    margin-top: 26px;
+    color: black;
+}
+.section8 .btn2{
+    padding: 12px 20px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    width: 200px;
+    margin-top: 70px;
+    text-align: center;
+}
+.section8 img{
+    position: absolute;
+    top: 18px;
+    left: 152px;
+}
+.section8 .text{
+    position: absolute;
+    right: 335px;
+    top: 38px;
+}
+.section8 #para1{
+    font-size: 16px;
+}
+.section8 .btn2:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.section9{
+    height: 65vh;
+    font-family: Roboto,Helvetica Neue,Arial ;
+   position: relative;
+}
+.section9 img{
+    position: absolute;
+    top: 18px;
+    left: 152px;
+    width: 586px;
+}
+.section9 .text{
+    position: absolute;
+    top: 18px;
+    left: 776px;
+}
+.section9 #bt1{
+    margin-top: 20px;
+}
+
+.section9 #para1{
+    margin-top: 20px;
+}
+.section9 .btn2{
+    margin-top: 25px;
+}
+.section9 .btn2{
+    padding: 10px 35px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+}
+.section9 .btn2:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.section9 .button{
+    padding: 12px 20px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 200px;
+    position: absolute;
+    left: 618px;
+    top: 353px;
+    text-align: center;
+
+}
+.section9 .button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.footer{
+    height: 29vh;
+    background-color: black;
+    font-family: Roboto,Helvetica Neue,Arial;
+    color: white;
+}
+.fcontainer{
+    height: 10%;
+}
+.fitem1 li{
+    float: left;
+    list-style-type: none;
+    margin-left: 31px;
+    margin-top: 56px;
+    cursor: pointer;
+   
+}
+.fitem2{
+    float: right;
+}
+.fitem2 svg{
+    margin-right: 31px;
+    margin-top: 56px;
+    cursor: pointer;
+
+    
+}
+.footer p{
+    margin-top: 86px;
+    width: 699px;
+    margin-left: 50px;
+    line-height: 34px;
+}
